@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: "Battangbang";
+}
+.header-full-container {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+}
+.header-full-container .header-container {
+  width: 75%;
+  height: 100%;
+  /* background-color: blue; */
+  margin: auto;
+}
+.header-container .logo {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+.logo img {
+  height: 75%;
+  margin-top: 12px;
+}
+.header-container .ads {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.header-container .ads img {
+  margin-top: 12px;
+  float: left;
+}
+/* menu */
+.menu-full-container {
+  width: 100%;
+  background-color: red;
+}
+.menu-container {
+  width: 75%;
+  overflow: hidden;
+  margin: auto;
+}
+.menu-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-container ul li {
+  float: left;
+}
+.menu-container ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Koulen";
+  font-size: 20px;
+  opacity: 0.8;
+}
+.menu-container ul li a:hover {
+  opacity: 1;
+}
+
+/* home-page */
+.home-page {
+  width: 75%;
+  height: 500px;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 1px 0px 0px 2px rgb(239, 239, 239);
+}
+.content-homepage {
+  width: 69%;
+  height: 100%;
+  background-color: beige;
+  float: left;
+  margin-right: 1%;
+}
+.home-page .ads-page {
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+  float: left;
+}
+.ads-page .ads1 {
+  width: 100%;
+  height: 50%;
+  /* background-color: black; */
+}
+.ads-page .ads1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.content-homepage .content1 {
+  width: 60%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+}
+.content1 .sub-title {
+  width: 110px;
+  height: 35px;
+  background-color: rgb(0, 14, 212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+  font-family: "Battambang";
+  font-weight: bold;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+}
+.content2 .sub-title {
+  width: 110px;
+  height: 35px;
+  background-color: rgb(1, 190, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+
+  color: white;
+  font-family: "Battambang";
+  font-weight: bold;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+}
+.sub-title p {
+  transform: translatex(-10px);
+}
+.content-homepage .bg-img1 {
+  background-image: url("img/phot-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-homepage .content2 {
+  width: 40%;
+  height: 50%;
+  float: left;
+  background-color: aqua;
+  overflow: hidden;
+}
+.content-homepage .bg-img2 {
+  background-image: url("img/photo-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ads-page .ads2 {
+  width: 100%;
+  height: 49%;
+  /* background-color: rgb(166, 0, 0); */
+  margin-top: 1%;
+}
+.content1 h3 {
+  transform: translateY(110px);
+  color: white;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-family: "Battambang";
+  line-height: 28px;
+  transition: 0.5s;
+  margin-left: 10px;
+  font-size: 22px;
+}
+.content1:hover h3 {
+  transform: translateY(60px);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.content1 h3 span {
+  font-size: 18px;
+  display: none;
+  transition: 0.5s;
+}
+.content1:hover span {
+  display: block;
+  color: red;
+}
+
+.content2 h3 {
+  transform: translateY(55px);
+  color: white;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-family: "Battambang";
+  line-height: 28px;
+  transition: 0.5s;
+  margin-left: 10px;
+  font-size: 22px;
+}
+.content2:hover h3 {
+  transform: translateY(10px);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.content2 h3 span {
+  font-size: 18px;
+  display: none;
+  transition: 0.5s;
+}
+.content2:hover span {
+  display: block;
+  color: red;
+}
+
+/* VDO-content */
+
+.VDO-container {
+  width: 75%;
+  overflow: hidden;
+  /* background-color: red; */
+  margin: 20px auto;
+}
+.VDO-container .NewType {
+  width: 100%;
+  height: 50px;
+  /* background-color: red; */
+  border-bottom: 3px solid red;
+}
+.NewType .box-title {
+  width: 10%;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+}
+.NewType .box-title p {
+  color: white;
+  font-family: "Koulen";
+  font-size: 25px;
+}
+.VDO-container .VDO-New {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(0, 134, 250);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.VDO-New .Top-new {
+  width: 100%;
+  height: 45%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.VDO-New .bottom-new {
+  width: 100%;
+  height: 55%;
+  background-color: rgb(0, 0, 0);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Top-new .top-box {
+  width: 33%;
+  height: 100%;
+  background-color: azure;
+}
+.top-box .box-photo {
+  width: 100%;
+  height: 70%;
+}
+.top-box .box-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top-box .box-dic {
+  width: 100%;
+  height: 100%;
+}
+.box-dic p {
+  width: 100%;
+  height: 30%;
+  color: black;
+  margin-top: 10px;
+  font-family: "Battambang";
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bottom-new .botton-box {
+  width: 23%;
+  height: 50%;
+  background-color: aqua;
+}
